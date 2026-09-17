@@ -58,7 +58,7 @@ Katjana is a full Superagent — she can execute tasks, not just chat.
 
 ### 3. OPENCLAW BRIDGE (Mac 1 fleet)
 `openclaw agent --agent main --message "from <your name>: ..."`
-or write to `/Users/tumeloramaphosa/conductor/workspaces/working-agents/stockholm/.context/`
+or write to the Mac 1 conductor workspace `.context/` directory (path issued on pairing)
 
 ## FLEET ROSTER (current)
 
@@ -68,7 +68,7 @@ or write to `/Users/tumeloramaphosa/conductor/workspaces/working-agents/stockhol
 - OpenClaw — execution agent
 - Naledi — CMO / content
 - DenchClaw — CRM + email outreach
-- CashClaw — finance + invoicing (FNB Studex Group #62760837610)
+- CashClaw — finance + invoicing (banking details issued per-invoice, never in repo)
 - Hermes fleet — 42 cloud agents (email / sales / engineering)
 - OpenMausBot — Mac command room (approvals + engine picker)
 - Hermes ACP — `hermes-acp` inside OpenMausBot
@@ -82,5 +82,7 @@ or write to `/Users/tumeloramaphosa/conductor/workspaces/working-agents/stockhol
 4. You are a guest — treat access as a privilege.
 5. Log your work: write results to `results/<your-name>/` and messages to the
    bridge inbox so the fleet stays coherent.
+6. Never commit banking details, account numbers, API keys, tokens, or absolute
+   local filesystem paths to this or any public repository.
 
 When you've loaded context, announce: **"CONNECTED as \<your name\>, ready"**.
