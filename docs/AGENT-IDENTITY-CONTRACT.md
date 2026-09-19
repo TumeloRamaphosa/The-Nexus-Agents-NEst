@@ -71,6 +71,12 @@ Grok Agent OS seat  ←canonical→  Nest gateway seat  ←aliases→  OpenClaw 
 | Cryptopia | `42dcd341-91ff-4d60-ad1f-fc63819c1888` | `cryptopia` | markets | — |
 | Bohlale | `eac5c2f8-6316-4cae-aef6-b2a9e98adfe4` | `bohlale` | client | — |
 | Katjana | *(Base44 registry)* | `katjana` | sales | — |
+| Claudiou | `3db022ac-a065-4649-9c6d-d1b15d7e6d83` | `claudiou` | infra | — |
+| Grok Nano / OS Mac DR | `10e1db60-80ea-4db5-8266-541fa4c776ff` (OS reports) | `grok-nano` | infra | — |
+
+**Claudiou** — GitHub/Vercel/Cloudflare + TI workers; distinct from Claudio-CTO vault.
+
+**Grok Nano / OS Mac DR** — OS Mac DR reporting surface into Obsidian `Grok Nano Machine Enginneer`; same OS UUID as Operating System seat — no new Grok agent. Shared Grok-bots brain prefers Drive Bus guest FS, not Nest Git.
 
 Unmapped OpenClaw identities stay in pool `openclaw-unassigned` until audited (bring-up P10).
 
