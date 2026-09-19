@@ -51,6 +51,7 @@ function seatCard(seat: NestSeat): string {
           <dl class="seat-meta">
             <div><dt>Lane</dt><dd class="lane-${escapeHtml(seat.lane)}">${escapeHtml(seat.lane)}</dd></div>
             <div><dt>Source</dt><dd>${escapeHtml(seat.source)}</dd></div>
+            <div><dt>Capabilities</dt><dd class="cap-list">${escapeHtml(seat.capabilities.join(" · "))}</dd></div>
             <div><dt>Register id</dt><dd class="mono">${escapeHtml(idShort)}</dd></div>
           </dl>
           <p class="seat-note">${escapeHtml(seat.status_note)}</p>
