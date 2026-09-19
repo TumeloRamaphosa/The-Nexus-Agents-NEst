@@ -1,0 +1,16 @@
+{
+  "name": "@studex/nest-command-deck",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Nest Command Deck — static Grok seat computers (scaffold; no War Room backend)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
